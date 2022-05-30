@@ -1,0 +1,6 @@
+
+It is simple thread pool program which uses a blocking queue .
+thread in the thread pool will be generated as per h/w concurrency
+
+To compile 
+#g++ -std=c++17 ./include/command.h ./include/command.h ./include/threadpool.h ./src/command.cpp ./src/threadpool.cpp ./src/worker.cpp  -pthread -o threadpool
